@@ -1,0 +1,34 @@
+h2 {
+    text-align: center;
+}
+    /* Basic styling for a more visually appealing chatbot interface */
+    body {
+      font-family: Arial, sans-serif; /* Set a pleasant font */
+      margin: 20px; /* Add some margin for better spacing */
+      border-radius: 3%;
+      border:#0055ff solid thin ;/* Adding a subtle blue border to the box. */
+      background-color:  rgb(18, 18, 9);/* Setting a light yellow background color. */
+    }
+    h1 {
+      text-align: center; /* Center the title */
+    }
+    form {
+      display: flex; /* Arrange form elements in a row */
+      margin-top: 20px; /* Add spacing after the title */
+    }
+    input[type="text"] {
+      flex: 1; /* Make the input field fill most of the horizontal space */
+      padding: 10px; /* Add padding for a cleaner look */
+      border: 1px solid #ccc; /* Add a subtle border */
+      border-radius: 5px; /* Add rounded corners for a more modern feel */
+    }
+    p {
+      margin-top: 10px; /* Add spacing between messages */
+    }
+    .you {
+      color: #3498db; /* Use a blue color for messages sent by the user */
+    }
+    .bot {
+      color: #e74c3c; /* Use a red color for messages from the bot */
+      font-weight: bold; /* Make bot messages slightly bolder for distinction */
+    }

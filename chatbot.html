@@ -1,0 +1,12 @@
+<!doctype html>
+<title>Professional Chatbot</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+<h2> Chatbot</h2>
+<form method="post">
+    <label for="user_input">You:</label><br>
+    <input type="text" id="user_input" name="user_input" value=""><br>
+    <input type="submit" value="Send">
+</form>
+{% if response %}
+  <p>Bot: {{ response }}</p>
+{% endif %}
