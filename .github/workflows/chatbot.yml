@@ -21,10 +21,10 @@ jobs:
           pip install MarkupSafe
           pip install itsdangerous
           pip install click
-          
+          pip install pytest
       - name: Run tests
         run: |
-          py3test
+          pytest
   deploy:
     runs-on: ubuntu-latest
     needs: build
