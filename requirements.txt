@@ -1,0 +1,8 @@
+pip install Flask
+pip install Jinja2
+pip install Werkzeug
+pip install MarkupSafe
+pip install itsdangerous
+pip install click
+pip install boto3
+pip list
