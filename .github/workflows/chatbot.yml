@@ -24,7 +24,7 @@ jobs:
           
       - name: Run tests
         run: |
-          pytest
+          py3test
   deploy:
     runs-on: ubuntu-latest
     needs: build
